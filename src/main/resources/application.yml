@@ -1,6 +1,6 @@
 spring:
   application:
-    name: shiroandjwt
+    name: shiro
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/cheetah?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
@@ -14,7 +14,7 @@ mybatis:
   #mapper配置文件位置
   mapper-locations: classpath:mapper/*.xml
   #配置xml文件中resultType返回值的包位置
-  type-aliases-package: com.cheetah.shiroandjwt.entity
+  type-aliases-package: com.cheetah.shiro.entity
   #开启驼峰命名
   configuration:
     map-underscore-to-camel-case: true

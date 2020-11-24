@@ -28,12 +28,12 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <!-- 生成POJO对象，并将类放到com.cheetah.shiroandjwt.entity包下 -->
-        <javaModelGenerator targetPackage="com.cheetah.shiroandjwt.entity" targetProject="src/main/java"></javaModelGenerator>
+        <!-- 生成POJO对象，并将类放到com.cheetah.shiro.entity包下 -->
+        <javaModelGenerator targetPackage="com.cheetah.shiro.entity" targetProject="src/main/java"></javaModelGenerator>
         <!-- 生成mapper xml文件，并放到resources下的mapper文件夹下 -->
         <sqlMapGenerator targetPackage="mapper"  targetProject="src/main/resources"></sqlMapGenerator>
-        <!-- 生成mapper xml对应dao接口，放到com.cheetah.shiroandjwt.mapper包下-->
-        <javaClientGenerator targetPackage="com.cheetah.shiroandjwt.mapper" targetProject="src/main/java" type="XMLMAPPER"></javaClientGenerator>
+        <!-- 生成mapper xml对应dao接口，放到com.cheetah.shiro.mapper包下-->
+        <javaClientGenerator targetPackage="com.cheetah.shiro.mapper" targetProject="src/main/java" type="XMLMAPPER"></javaClientGenerator>
 
         <!-- table标签可以有多个，至少一个，tableName指定表名，可以使用_和%通配符 -->
         <table tableName="sys_role" domainObjectName="SysRole"
