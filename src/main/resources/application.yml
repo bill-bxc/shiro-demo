@@ -3,9 +3,9 @@ spring:
     name: shiro
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/cheetah?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://10.180.2.26:3306/shiro-demo?useUnicode=true&serverTimezone=Asia/Shanghai
     username: root
-    password: 123456
+    password: "123456"
 server:
   port: 8080
 
